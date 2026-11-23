@@ -11,3 +11,6 @@ consola_simulacion.txt
 
 __pycache__/
 *.pyc
+
+# logs de ejecucion de la demo sqlmap
+sqlmap_demo/app_vulnerable.log

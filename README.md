@@ -14,6 +14,7 @@ expuestas aunque el desarrollador las borre minutos después.
 | Código exacto de cada commit | [`etapas/commit1`](etapas/commit1), [`etapas/commit2`](etapas/commit2), [`etapas/commit3`](etapas/commit3) |
 | Script que ejecuta los 3 commits | [`simular_fuga.py`](simular_fuga.py) |
 | Evidencia de la ejecución real | [`evidencia/`](evidencia) |
+| Demo extra de inyección SQL con sqlmap | [`sqlmap_demo/`](sqlmap_demo) |
 
 ```
 lab_fuga_credenciales/            (C:\xampp5001\htdocs\lab_fuga_credenciales)
