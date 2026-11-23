@@ -1,0 +1,13 @@
+# El proyecto ficticio es otro repositorio (lab-proyecto-ficticio-fuga)
+proyecto_ficticio/
+
+# Datos que genera el bot al ejecutarse
+bot_monitor/.repo_cache/
+bot_monitor/Respaldos_Repo/
+bot_monitor/.estado_bot.json
+bot_monitor/alertas_seguridad.log
+bot_monitor/consola_bot.txt
+consola_simulacion.txt
+
+__pycache__/
+*.pyc

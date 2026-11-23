@@ -1,0 +1,13 @@
+[2026-11-23 00:53:11] [CRITICO] commit 6377521 | .env | archivo de entorno .env versionado en el repositorio
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:6 | DB_PASS con valor en texto plano: Pr0y************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:7 | DB_ROOT_PASSWORD con valor en texto plano: R00t************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:9 | JWT_SECRET con valor en texto plano: clav************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:12 | MAIL_API_KEY con valor en texto plano: sk-t************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:13 | PAGOS_API_KEY con valor en texto plano: pk_l************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:14 | STORAGE_ACCESS_KEY con valor en texto plano: LAB-************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | .env:15 | STORAGE_SECRET_KEY con valor en texto plano: lab/************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | config.py:18 | DB_PASS con valor en texto plano: Pr0y************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | config.py:21 | JWT_SECRET con valor en texto plano: clav************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | config.py:25 | MAIL_API_KEY con valor en texto plano: sk-t************
+[2026-11-23 00:53:11] [ALTO] commit 6377521 | config.py:26 | PAGOS_API_KEY con valor en texto plano: pk_l************
+[2026-11-23 00:53:58] [AVISO] commit 3fddca4 borra '.env', pero su contenido ya fue capturado del commit 6377521 y sigue en el historial de Git. Las credenciales deben ROTARSE.

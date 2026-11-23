@@ -1,0 +1,20 @@
+Capturado por repo_watcher.py el 2026-11-23 00:53:58
+
+Commit:  3fddca4323a8587611de1a83a8679945d2e45ea8
+Autor:   Dev Ficticio <dev.ficticio@example.com>
+Fecha:   2026-11-23 00:53:53 -0500
+Mensaje: Eliminar .env y mover credenciales a variables de entorno
+
+
+D	.env
+A	.env.example
+M	config.py
+
+Huellas SHA-256 del contenido exportado:
+f3e7ec6ed89067750d92800ca1fbb5f68621da8e1d61cf4b4bc8cf3464657892  .env.example
+3315f09e0ff490da398a68a67fac0a8968b728318ed5458c18fe6a091e3ef4b2  .gitignore
+87e4def190aaa37719fc51fd1aebb65b1564144a7d63cb4c219d00990ab22c6a  app.py
+d316b460c0a66aa839c14fc144cad5e4ca360bd4e9a860a558e5a3232b1fe543  config.py
+f06e9362641d590f28eb1a22b804eb232451016e272bd4fde2e7fde561eeae6e  database.py
+4420a06d5c5f0684f9052d23018241df71928bf8c6b215757c7f15c35d0cc525  README.md
+6d65ed30b6a0d1014e4ab5fdf9b6cb0d98b521600085647d752c67689e3561c7  requirements.txt

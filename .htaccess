@@ -1,0 +1,3 @@
+# Esta carpeta vive dentro de htdocs de XAMPP y contiene archivos .env
+# y respaldos con credenciales (ficticias). Apache no debe servir nada de aqui.
+Require all denied

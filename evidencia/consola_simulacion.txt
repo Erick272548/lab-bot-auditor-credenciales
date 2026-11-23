@@ -1,0 +1,89 @@
+
+======================================================================
+COMMIT 1 - Version limpia (secretos solo en .env local, ignorado)
+======================================================================
+  $ git init -q -b main
+  $ git config user.name Dev Ficticio
+  $ git config user.email dev.ficticio@example.com
+  $ git remote add origin https://github.com/Erick272548/lab-proyecto-ficticio-fuga.git
+  $ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'config.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'database.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'requirements.txt', LF will be replaced by CRLF the next time Git touches it
+  $ git status --short --ignored
+A  .gitignore
+A  README.md
+A  app.py
+A  config.py
+A  database.py
+A  requirements.txt
+!! .env
+  $ git commit -q -m Estructura base de la API de usuarios
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+  $ git push -u origin main
+To https://github.com/Erick272548/lab-proyecto-ficticio-fuga.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+... esperando 45s (el bot respalda el commit 1)
+
+======================================================================
+COMMIT 2 - Fuga accidental (config.py hardcodeado + git add -f .env)
+======================================================================
+  $ git add config.py
+warning: in the working copy of 'config.py', LF will be replaced by CRLF the next time Git touches it
+  $ git add -f .env
+warning: in the working copy of '.env', LF will be replaced by CRLF the next time Git touches it
+  $ git status --short
+A  .env
+M  config.py
+  $ git commit -q -m Configurar conexion para la demo
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+  $ git push origin main
+To https://github.com/Erick272548/lab-proyecto-ficticio-fuga.git
+   153fc98..6377521  main -> main
+
+... esperando 45s (el desarrollador tarda en notar el error; el bot ya lo vio)
+
+======================================================================
+COMMIT 3 - Intento de borrado (git rm .env + os.getenv)
+======================================================================
+  $ git rm -q .env
+  $ git add config.py .env.example
+warning: in the working copy of 'config.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it
+  $ git status --short
+D  .env
+A  .env.example
+M  config.py
+  $ git commit -q -m Eliminar .env y mover credenciales a variables de entorno
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+  $ git push origin main
+To https://github.com/Erick272548/lab-proyecto-ficticio-fuga.git
+   6377521..3fddca4  main -> main
+
+======================================================================
+Simulacion terminada. Historial:
+======================================================================
+  $ git log --oneline --name-status
+3fddca4 Eliminar .env y mover credenciales a variables de entorno
+D	.env
+A	.env.example
+M	config.py
+6377521 Configurar conexion para la demo
+A	.env
+M	config.py
+153fc98 Estructura base de la API de usuarios
+A	.gitignore
+A	README.md
+A	app.py
+A	config.py
+A	database.py
+A	requirements.txt
+exit 0
